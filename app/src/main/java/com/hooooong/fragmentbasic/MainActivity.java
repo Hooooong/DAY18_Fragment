@@ -61,5 +61,15 @@ public class MainActivity extends AppCompatActivity implements ListFragment.Call
         super.onResume();
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.d("Activity", "===========================onPause()");
+    }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d("Activity", "===========================onDestroy()");
+    }
 }

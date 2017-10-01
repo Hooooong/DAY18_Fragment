@@ -2,6 +2,7 @@ package com.hooooong.fragmentbasic;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -30,6 +31,12 @@ public class ListFragment extends Fragment {
 
         Log.d("Fragment", "===========================onAttach()");
         super.onAttach(context);
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Log.d("Fragment", "===========================onCreate()");
     }
 
     // 얘는 액티비티에 부착되면서 동작 시작
@@ -69,6 +76,24 @@ public class ListFragment extends Fragment {
     public void onResume() {
         Log.d("Fragment", "===========================onResume()");
         super.onResume();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        Log.d("Fragment", "===========================onPause()");
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        Log.d("Fragment", "===========================onDestroyView()");
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        Log.d("Fragment", "===========================onStop()");
     }
 
     @Override

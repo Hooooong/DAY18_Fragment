@@ -114,7 +114,7 @@ ____________________________________________________
 
   - `<background>` 속성 설정
 
-    - Fragment 는 `<background>` 를 설정해줘야 한다. `getSupportFragmentManager().add()`를 하게 되면 동일한 View에 그려지기 때문에 텍스트나 이미지가 곂쳐보이게 된다.
+    - Fragment 는 `<background>` 를 설정해줘야 한다. `getSupportFragmentManager().add()`를 하게 되면 동일한 View에 그려지기 때문에 텍스트나 이미지가 겹쳐보이게 된다.
 
     - 또는 `getSupportFragmentManager().replace()` 를 하여 Fragment 를 바꿔주면 해결할 수 있다.
 

@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context="com.hooooong.fragmentbasic.DetailFragment"
     android:clickable="true">
     <!-- Fragment 는 Backgound 와 Clickable 처리를 해줘야 한다.-->

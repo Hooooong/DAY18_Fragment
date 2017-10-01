@@ -109,7 +109,7 @@ ____________________________________________________
 
     - Fragment 는 Activity 와 다르게 Click 시 밑에 쌓여있던 버튼들이 클릭되기 때문에 Clickable = true 로 해줘야 한다.
 
-  ![addToBackStack](https://github.com/Hooooong/DAY18_Fragment/blob/master/image/addToBackStack.mp4)
+  ![addToBackStack](https://github.com/Hooooong/DAY18_Fragment/blob/master/image/addToBackStack.gif)
 
   - `addToBackStack(null)`
 

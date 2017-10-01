@@ -14,7 +14,7 @@ ____________________________________________________
 
 - Fragment 란?
 
-  ![Fragment 예시]()
+  ![Fragment 예시](https://github.com/Hooooong/DAY18_Fragment/blob/master/image/fragments.png)
 
   > 태블릿과 같은 큰 화면에서 보다 역동적이고 유연한 UI 디자인을 지원하는 것을 목적으로 나온 Activity 의 하위 개념이다. 여러 개의 Fragment 를 하나의 Activity 에 조합하여 창이 여러개인 UI를 구축할 수 있으며, 하나의 Fragment 를 여러 Activity에서 재사용할 할 수 있다.<br>
   > Fragment 는 Activity 와 유사하게 생명주기를 자체적으로 가지고 있기 때문에 개발자가 세심하게 관리해야 하는 단점이 있다.
@@ -97,7 +97,7 @@ ____________________________________________________
 
 - Fragment 사용 시 주의점
 
-  ![background]()
+  ![background](https://github.com/Hooooong/DAY18_Fragment/blob/master/image/background.gif)
 
   - `<background>` 속성 설정
 
@@ -109,7 +109,7 @@ ____________________________________________________
 
     - Fragment 는 Activity 와 다르게 Click 시 밑에 쌓여있던 버튼들이 클릭되기 때문에 Clickable = true 로 해줘야 한다.
 
-  ![addToBackStack]()
+  ![addToBackStack](https://github.com/Hooooong/DAY18_Fragment/blob/master/image/addToBackStack.mp4)
 
   - `addToBackStack(null)`
 

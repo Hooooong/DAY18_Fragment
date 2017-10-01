@@ -25,16 +25,16 @@ ____________________________________________________
 
   메소드 | 설명
   :----: | :----:
-  onAttach() | add() 한 후 Activity 가 onStart() 를 호출하면 onAttach() 가 호출된다. 이때 매개변수로 자신을 호출한 Activity의 Context를 받는다
-  onCreate() | onAttach() 가 호출된 후 Fragment 를 생성할 때 호출된다. Activity 와는 다르게 onCreate()에서 View 에 대한 작업을 할 수 없다
-  onCreateView() | Fragment 의 UI를 그릴 때 호출한다. View 에 대한 작업을 이 메소드 안에서 하고, 작업한 View를 반환한다
-  onStart() | Fragment 가 사용자에게 보여지기 바로 직전에 호출된다
-  onResume() | Activity의 onResume() 이 호출 된 후, Fragment 의 onResume() 이 호출된다. Fragment 가 사용자와 상호작용하기 바로 전에 호출된다
-  onPause() | 다른 Fragment 가 보여질 때 호출된다
-  onStop() | Fragment 가 더이상 사용자에게 보여지지 않을 때 호출된다
-  onDestroyView() | View 리소스를 해제 할수 있도록 호출된다. backstack을 사용 했다면 Fragment를 다시 돌아 갈때 onCreateView()가 호출 된다
-  onDestroy() | Fragment 를 완전히 종료 할 수 있도록 호출 한다
-  onDetach() | Fragment 가 Activity와 연결이 완전히 끊기기 직전에 호출 된다
+  onAttach() | add() 한 후 Activity 가 onStart() 를 호출하면 onAttach() 가 호출된다.<br>이때 매개변수로 자신을 호출한 Activity의 Context를 받는다.
+  onCreate() | onAttach() 가 호출된 후 Fragment 를 생성할 때 호출된다. <br>Activity 와는 다르게 onCreate()에서 View 에 대한 작업을 할 수 없다.
+  onCreateView() | Fragment 의 UI를 그릴 때 호출한다. View 에 대한 작업을 이 메소드 안에서 하고, 작업한 View를 반환한다.
+  onStart() | Fragment 가 사용자에게 보여지기 바로 직전에 호출된다.
+  onResume() | Activity의 onResume() 이 호출 된 후, Fragment 의 onResume() 이 호출된다.<br>Fragment 가 사용자와 상호작용하기 바로 전에 호출된다.
+  onPause() | 다른 Fragment 가 보여질 때 호출된다.
+  onStop() | Fragment 가 더이상 사용자에게 보여지지 않을 때 호출된다.
+  onDestroyView() | View 리소스를 해제 할수 있도록 호출된다.<br>backstack을 사용 했다면 Fragment를 다시 돌아 갈때 onCreateView()가 호출 된다.
+  onDestroy() | Fragment 를 완전히 종료 할 수 있도록 호출 한다.
+  onDetach() | Fragment 가 Activity와 연결이 완전히 끊기기 직전에 호출 된다.
 
 - Fragment 사용하기
 

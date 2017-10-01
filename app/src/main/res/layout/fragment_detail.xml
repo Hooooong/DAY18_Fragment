@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hooooong.fragmentbasic.DetailFragment"
+    android:clickable="true">
+    <!-- Fragment 는 Backgound 와 Clickable 처리를 해줘야 한다.-->
+    <!-- Fragment 는 Activity 와 다르게 Click 시 밑에 쌓여있던 버튼들이 클릭되기 때문에 Clickable = true 로 해줘야 한다.-->
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="DetailFragment" />
+</FrameLayout>

@@ -25,7 +25,7 @@ ____________________________________________________
 
   메소드 | 설명
   :----: | :----:
-  onAttach() | add() 한 후 Activity 가 onStart() 를 호출하면 onAttach() 가 호출된다.<br>이때 매개변수로 자신을 호출한 Activity의 Context를 받는다.
+  onAttach() | Fragment를 add() 한 후 Activity 가 onStart() 를 호출하면 onAttach() 가 호출된다.<br>이때 매개변수로 자신을 호출한 Activity의 Context를 받는다.
   onCreate() | onAttach() 가 호출된 후 Fragment 를 생성할 때 호출된다. <br>Activity 와는 다르게 onCreate()에서 View 에 대한 작업을 할 수 없다.
   onCreateView() | Fragment 의 UI를 그릴 때 호출한다.<br>View 에 대한 작업을 이 메소드 안에서 하고, 작업한 View를 반환한다.
   onStart() | Fragment 가 사용자에게 보여지기 바로 직전에 호출된다.
